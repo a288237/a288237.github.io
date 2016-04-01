@@ -1,5 +1,20 @@
+html, body{
+height: 100%;
+}
 body{
-  background-image: url("http://previews.123rf.com/images/meinzahn/meinzahn1405/meinzahn140500510/28236769-arm-nica-viejo-fondo-de-la-pared-de-ladrillo-rojo-hist-rico-Foto-de-archivo.jpg");
+  background-image: url("http://g02.a.alicdn.com/kf/HTB1q1QpHVXXXXaPXXXXq6xXFXXXf/Vintage-Style-Car-fondo-carta-Mural-Wallpaper-Vinly-papel-de-la-pared-decoraci&oacute;n-peri&oacute;dico-viejo-para.jpg");
+  margin: 0;
+  padding:0;
+  font-size: 15px;
+}
+header {
+  padding: 50px;
+	overflow: hidden;
+  background-color: #845149;
+}
+nav{
+  float: right;
+	line-height: 12px;
 }
 ul {
     list-style-type: none;
@@ -21,67 +36,67 @@ li a {
 li a:hover {
     background-color: #111;
 }
+a{
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding: 10px 16px;
+}
+a:hover{
+  background-color: #111;
+}
+i{
+  color: white;
+}
 #wrapper{
   width: 1100px;
   margin: 50px auto;
-}
-#principal{
-  border-style: double;
-  border-width: thick;
-}
-header {
-  padding: 20px;
-	overflow: hidden;
-  background-color: white;
-}
-#content h2{
-  text-align: center;
-  color: black;
-  font-family: monospace;
-  font-size: 30px;
-}
-header h1{
-  text-align: justify;
-	line-height: 12px;
-	float: left;
-  font-size: 50px;
-  color: black;
-  font-family: "Lucida Console", monospace;
-}
-header nav{
-  float: right;
-	line-height: 12px;
 }
 #content, #bottom{
 	overflow: hidden;
   background-color: white;
 }
-img{
-  height:200px;
-  box-shadow: 10px 10px 5px grey;
-}
-#content p{
+#content p, #bottom p{
   text-align: justify;
   font-family: cursive;
+}
+h2{
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: monospace;*/
+  font-size: 30px;
+}
+h1{
+  text-align: justify;
+	line-height: 12px;
+	float: left;
+  font-size: 50px;
+  color: black;
+  font-family: 'Architects Daughter', cursive;
+  /*font-family: "Lucida Console", monospace;*/
+}
+div img{
+  height:200px;
+  box-shadow: 10px 10px 5px grey;
+  align: center;
 }
 article{
   width:570px;
   float:left;
   padding:10px;
-  border-style: double;
-  border-width: thick;
 	overflow: hidden;
   margin: 10px;
-  height: 1346px;
+  height: 1020px;
 }
 aside section{
   width:420px;
   float:right;
   padding:10px;
-  border-style: double;
-  border-width: thick;
+  /*border-bottom: 1px solid black;*/
   overflow: hidden;
   margin: 10px;
+  background-color: #445A70;
 }
 #bottom article{
 	width: 30%;
@@ -89,24 +104,25 @@ aside section{
 	display: inline-block;
 }
 #tema1{
-	margin: 2px;
-	padding: 10px;
+	margin: 10px;
+	padding: 7.3px;
 	height: 600px;
+  /*border-right: 1px solid black;*/
+  background-color: #DA7C3E;
 }
 #tema2{
-	padding: 2px;
-	height: 600px;
-	margin: 10px;
+  margin: 10px;
+  padding: 7.3px;
+  height: 600px;
+  background-color: #DA7C3E;
 }
 #tema3{
-	margin: 2px;
-	padding: 10px;
+	margin: 10px;
+	padding: 7.3px;
 	height: 600px;
 	float: right;
-}
-footer a{
-  color: white;
-  text-decoration: none;
+  background-color: #DA7C3E;
+  /*border-left: 1px solid black;*/
 }
 footer{
   background-color:black;
@@ -114,6 +130,21 @@ footer{
   clear:both;
   text-align:center;
   padding:50px;
-  border-style: double;
-  border-width: thick;
+  /*border-style: double;
+  border-width: thick;*/
+}
+table, th, td{
+  border: 1px solid black;
+}
+thead{
+  color:green;
+}
+tbody{
+  color:blue;
+}
+tfoot{
+  color:darkred;
+}
+#uach{
+  height: 98px;
 }

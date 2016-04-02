@@ -133,6 +133,20 @@ footer{
   /*border-style: double;
   border-width: thick;*/
 }
+.contacto [type=text] {
+  width:500px;
+  border: 1px solid #222;
+  border-radius: 7px;
+  line-height:40px;
+  padding:0 10px;
+  outline:none;
+  margin:10px 0;
+  transition: all .3s ease-in-out;
+}
+.contacto [type=text]:focus {
+  box-shadow: 0 0 85px #316696;
+  border-color: #FFF;
+}
 table, th, td{
   border: 1px solid black;
 }

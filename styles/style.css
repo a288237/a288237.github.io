@@ -2,7 +2,7 @@ html, body{
 height: 100%;
 }
 body{
-  background-image: url("http://g02.a.alicdn.com/kf/HTB1q1QpHVXXXXaPXXXXq6xXFXXXf/Vintage-Style-Car-fondo-carta-Mural-Wallpaper-Vinly-papel-de-la-pared-decoraci&oacute;n-peri&oacute;dico-viejo-para.jpg");
+  background: url("../images/bg.jpg") no-repeat center center fixed;
   margin: 0;
   padding:0;
   font-size: 15px;
